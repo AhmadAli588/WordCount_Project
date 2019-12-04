@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Count</title>
+</head>
+<body>
+<h1>There are {{count}} Words You Entered</h1>
+<h3>Here the Text You Entered:</h3>
+{{text}}
+<h1>List of Word You Entered in the Sentence</h1>
+{%for word, countotal in Wordcount %}
+{{word}
+<br>
+{{counttotal}}
+{% endfor %}
+</body>
+</html>
